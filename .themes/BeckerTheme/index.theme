@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Becker-Theme
+Comment=An Flat Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Becker-Theme
+MetacityTheme=Becker-Theme
+IconTheme=Tela-circle-Dark
+CursorTheme=Becker-cursors
+ButtonLayout=close,minimize,maximize:menu
