@@ -1,4 +1,4 @@
-import = ["/home/ernst/.config/alacritty/themes/becker.toml"]
+import = ["/home/ernst/.config/alacritty/themes/BeckerTheme.toml"]
 
 [env]
 TERM = "xterm-256color"
