@@ -24,7 +24,7 @@ family = "CaskaydiaCove Nerd Font"
 style = "Regular"
 
 [shell]
-program = "/usr/bin/zsh"
+program = "/bin/zsh"
 
 [window]
 decorations = "none"
@@ -34,3 +34,6 @@ title = "Alacritty"
 [window.padding]
 x = 20
 y = 20
+
+[cursor]
+style = "Beam"

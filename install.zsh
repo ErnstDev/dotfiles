@@ -1,7 +1,5 @@
 #!/bin/zsh
 
-echo "First, you need the programs."
-#sudo pacman -S zsh alacritty neofetch rofi
 echo "Installing dotfiles..."
 
 # ! Zsh

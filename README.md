@@ -18,8 +18,8 @@
   <p>Configuration files for:</p>
     <ul>
       <li>Alacritty
-      <li>Lvim
       <li>Zsh (p10k, autosuggestions, highlighting and history)
+      <li>Lvim
       <li>Neofetch
       <li>Rofi
       <li>VLC
@@ -30,9 +30,12 @@
   <h2>📸 Screenshots</h2>
   <p><b>⚠️Illustrative images do not represent the final result!⚠️</b></p>
   <div>
+    <!-- <img width="45%" height="45%" src="Infos/Screenshots/1.png">
     <img width="45%" height="45%" src="Infos/Screenshots/1.png">
-    <img width="45%" height="45%" src="Infos/Screenshots/2.png">
-    <img width="45%" height="45%" src="Infos/Screenshots/3.png">
+    <img width="45%" height="45%" src="Infos/Screenshots/2.png"> -->
+    <img src="Infos/Screenshots/2.png">
+    <img src="Infos/Screenshots/3.png">
+    <img src="Infos/Screenshots/3.png">
   </div>
 </div>
 
@@ -61,8 +64,7 @@
     <li><a href="https://github.com/pop-os/shell">Pop Shell</a></li>
     <li><a href="https://github.com/hardpixel/unite-shell">Unite</a></li>
   </ul>
-
-  <p>Click <a href="Infos/extensions.md">here</a> for see the how to configure the extensions.</p>
+  <p>Click <a href="Infos/extensions.md">here</a> to see how to configure the extensions.</p>
 </div>
 
 <div align="center">
@@ -76,5 +78,13 @@
 
 <div align="center">
   <h2 align="center">💾 Installation</h2>
-  <p>In progress...</p>
+  <h3>Programs</h3>
+  <p>To install the programs I use.</p>
+  <pre><code>sudo pacman -S zsh alacritty neofetch</code></pre>
+  <h3>Dependencies</h3>
+  <p>First you will need to install the dependencies.</p>
+  <pre><code>sudo pacman -S exa bat</code></pre>
+  <h3>Dotfiles</h3>
+  <p>To apply the dotfiles, run the zsh script.</p>
+  <pre><code>zsh install.zsh</code></pre>
 </div>
