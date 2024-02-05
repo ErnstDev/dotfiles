@@ -26,4 +26,11 @@ mv -f ~/.config/alacritty ~/.config/alacritty.old
 cp -r .config/alacritty ~/.config/alacritty
 echo "Alacritty done!"
 
+# ! Cava
+echo "Ricing Cava..."
+mv -f ~/.config/cava ~/.config/cava.old
+cp -r .config/cava ~/.config/cava
+echo "Cava done!"
+
+
 echo "Dotfiles installed successfully!"

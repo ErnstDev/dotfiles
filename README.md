@@ -18,7 +18,7 @@
   <p>Configuration files for:</p>
     <ul>
       <li>Alacritty
-      <li>Zsh (p10k, autosuggestions, highlighting and history)
+      <li>Zsh (<a href="https://github.com/romkatv/powerlevel10k">p10k</a>, <a href="https://github.com/zsh-users/zsh-autosuggestions">autosuggestions</a>, <a href="https://github.com/zsh-users/zsh-syntax-highlighting">highlighting</a> and history)
       <li>Lvim
       <li>Neofetch
       <li>Rofi
@@ -30,11 +30,10 @@
   <h2>📸 Screenshots</h2>
   <p><b>⚠️Illustrative images do not represent the final result!⚠️</b></p>
   <div>
-    <!-- <img width="45%" height="45%" src="Infos/Screenshots/1.png">
-    <img width="45%" height="45%" src="Infos/Screenshots/1.png">
-    <img width="45%" height="45%" src="Infos/Screenshots/2.png"> -->
     <img src="Infos/Screenshots/2.png">
+    <br>
     <img src="Infos/Screenshots/3.png">
+    <br>
     <img src="Infos/Screenshots/3.png">
   </div>
 </div>
@@ -80,7 +79,7 @@
   <h2 align="center">💾 Installation</h2>
   <h3>Programs</h3>
   <p>To install the programs I use.</p>
-  <pre><code>sudo pacman -S zsh alacritty neofetch</code></pre>
+  <pre><code>yay -S zsh alacritty neofetch rofi cava</code></pre>
   <h3>Dependencies</h3>
   <p>First you will need to install the dependencies.</p>
   <pre><code>sudo pacman -S exa bat</code></pre>
