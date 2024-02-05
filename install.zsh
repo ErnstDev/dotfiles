@@ -32,5 +32,4 @@ mv -f ~/.config/cava ~/.config/cava.old
 cp -r .config/cava ~/.config/cava
 echo "Cava done!"
 
-
 echo "Dotfiles installed successfully!"
