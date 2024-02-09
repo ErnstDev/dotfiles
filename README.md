@@ -46,7 +46,7 @@
     <li><a href="https://extensions.gnome.org/extension/4783/default-workspace/">Default Workspace</a></li>
     <li><a href="https://extensions.gnome.org/extension/4158/gnome-40-ui-improvements/">Gnome 4x UI Improvements</a></li>
     <li><a href="https://extensions.gnome.org/extension/4451/logo-menu/">Logo Menu</a></li>
-    <li><a href="https://extensions.gnome.org/extension/4928/mpris-label/">Media Label and COntrols (Mpris Label)</a></li>
+    <li><a href="https://extensions.gnome.org/extension/4928/mpris-label/">Media Label and Controls (Mpris Label)</a></li>
     <li><a href="https://extensions.gnome.org/extension/5090/space-bar/">Space Bar</a></li>
     <li><a href="https://extensions.gnome.org/extension/6385/steal-my-focus-window/">Steal my focus window</a></li>
     <li><a href="https://extensions.gnome.org/extension/4356/top-bar-organizer/">Top Bar Organizer</a></li>
