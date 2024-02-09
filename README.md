@@ -69,7 +69,7 @@
   <p><b>Shell</b>: BeckerTheme (Modded version of catppuccin)</p>
   <p><b>Icons</b>: <a href="https://store.kde.org/p/1166289/">Papirus-Dark</a></p>
   <p><b>Folders</b>: <a href="https://github.com/PapirusDevelopmentTeam/papirus-folders">Papirus-Yaru</a></p>
-  <p><b>Cursor</b>: <a href="https://store.kde.org/p/1831077">Culloid-Cursors</a> and <a href="https://store.kde.org/p/2045954">Chroma Cursors for Linux</a></p>
+  <p><b>Cursor</b>: <a href="https://www.gnome-look.org/p/1652458">ArcDusk Cursors</a> and <a href="https://www.gnome-look.org/p/1831077">Culloid-Cursors</a></p>
   <p><b>Alacritty</b>: BeckerTheme</p>
 </div>
 
