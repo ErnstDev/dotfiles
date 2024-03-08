@@ -36,7 +36,7 @@ source /opt/asdf-vm/asdf.sh
 # Replace with some better alternatives
 alias ls="exa --icons"
 alias cat="bat --style=auto"
-alias ani-cli="ani-cli --vlc"
+alias ani-cli="ani-cli"
 alias gedit="gnome-text-editor"
 
 # Common use

@@ -32,11 +32,5 @@ mv -f ~/.config/cava ~/.config/cava.old
 cp -r .config/cava ~/.config/cava
 echo 'Cava done!'
 
-# ! Icons theme
-echo 'Installing papirus theme...'
-sudo pacman -S papirus-icon-theme
-yay -S	papirus-folders-git
-papirus-folders -C yaru --theme Papirus-Dark
-echo 'Papirus theme done!'
 
 echo 'Dotfiles installed successfully!'

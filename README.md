@@ -30,8 +30,10 @@
   <h2>📸 Screenshots</h2>
   <p><b>⚠️Illustrative images do not represent the final result!⚠️</b></p>
   <div>
-    <img src="Infos/Screenshots/1.png"><br><br>
-    <img src="Infos/Screenshots/2.png"><br><br>
+    <img src="Infos/Screenshots/1.png">
+    <br><br>
+    <img src="Infos/Screenshots/2.png">
+    <br><br>
     <img src="Infos/Screenshots/3.png">
   </div>
 </div>
@@ -75,13 +77,18 @@
 
 <div align="center">
   <h2 align="center">💾 Installation</h2>
-  <h3>Programs</h3>
+
+  <h3>Dependencies</h3>
   <p>To install the programs I use.</p>
   <pre><code>yay -S zsh alacritty neofetch rofi cava</code></pre>
-  <h3>Dependencies</h3>
   <p>First you will need to install the dependencies.</p>
   <pre><code>sudo pacman -S exa bat</code></pre>
+
+  <h3>Fonts and Themes</h3>
+  <p>For install necessary fonts and themes.</p>
+  <pre><code>chmod -x fontsthemes.zsh</code><code>zsh fontsthemes.zsh</code></pre>
+
   <h3>Dotfiles</h3>
   <p>To apply the dotfiles, run the zsh script.</p>
-  <pre><code>zsh install.zsh</code></pre>
+  <pre><code>chmod -x install.zsh</code><code>zsh install.zsh</code></pre>
 </div>

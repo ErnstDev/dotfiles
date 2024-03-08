@@ -2,7 +2,7 @@
  *
  * Author : Aditya Shakya (adi1090x)
  * Github : @adi1090x
- *
+ * 
  * Rofi Theme File
  * Rofi Version: 1.7.3
  **/
@@ -21,14 +21,15 @@ configuration {
 
 /*****----- Global Properties -----*****/
 * {
-    font:                        "JetBrains Mono Nerd Font 12";
-    /*background:                  #231419;*/
-    background:                  #111111;
-    background-alt:              #111111;
-    /*background-alt:              #2D1E23;*/
+    font:                        "JetBrains Mono Nerd Font 11";
+    /* background:                  #231419; */
+    background:                  #141414;
+    /* background-alt:              #2D1E23; */
+    background-alt:              #141414;
     foreground:                  #FFFFFF;
-    selected:                    #d1032a;
-    active:                      #8a011b;
+    selected:                    #ff0043;
+    /* selected:                    #426647; */
+    active:                      #2E3F34;
     urgent:                      #D08261;
 }
 
@@ -45,7 +46,7 @@ window {
 
     /* properties for all widgets */
     enabled:                     true;
-    border-radius:               10px;
+    border-radius:               14px;
     cursor:                      "default";
     background-color:            @background;
 }
@@ -73,7 +74,6 @@ inputbar {
     spacing:                     10px;
     padding:                     80px 60px;
     background-color:            transparent;
-    /*background-image:            url("~/.config/rofi/images/e.jpg", width);*/
     background-image:            url("~/.config/background", width);
     text-color:                  @foreground;
     orientation:                 horizontal;
@@ -97,7 +97,7 @@ entry {
     background-color:            @background-alt;
     text-color:                  inherit;
     cursor:                      text;
-    placeholder:                 "Search";
+    placeholder:                 "Search...";
     placeholder-color:           inherit;
 }
 dummy {
@@ -137,7 +137,6 @@ listview {
     reverse:                     false;
     fixed-height:                true;
     fixed-columns:               true;
-
     spacing:                     10px;
     background-color:            transparent;
     text-color:                  @foreground;
