@@ -125,7 +125,7 @@
   padding: 12px;
   /* background-color: #11111b; */
   background-color: #111111;
-  border: 1px solid black;
+  border: 1px solid #000;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
 }
 
@@ -2396,7 +2396,8 @@ StEntry StLabel.hint-text,
 }
 
 /* Quick settings button toggle */
-.quick-toggle, .quick-menu-toggle  {
+.quick-toggle,
+.quick-menu-toggle {
   border-radius: 6px;
   min-width: 5em;
   max-width: 12em;
@@ -2472,7 +2473,7 @@ StEntry StLabel.hint-text,
   border-radius: 6px 0 0 6px;
 }
 
-.quick-menu-toggle .quick-toggle:ltr > StBoxLayout {
+.quick-menu-toggle .quick-toggle:ltr>StBoxLayout {
   padding-right: 9px;
 }
 
@@ -2480,7 +2481,7 @@ StEntry StLabel.hint-text,
   border-radius: 0 6px 6px 0;
 }
 
-.quick-menu-toggle .quick-toggle:rtr > StBoxLayout {
+.quick-menu-toggle .quick-toggle:rtr>StBoxLayout {
   padding-left: 9px;
 }
 
@@ -2502,7 +2503,7 @@ StEntry StLabel.hint-text,
   background-color: rgba(255, 255, 255, 0.12) !important;
 }
 
-.quick-menu-toggle .quick-toggle-arrow:checked{
+.quick-menu-toggle .quick-toggle-arrow:checked {
   background-color: #ff0043 !important;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -2635,21 +2636,35 @@ StEntry StLabel.hint-text,
 /* ! TopBar in pieces  */
 /* ? Comment or uncomment this for make the top bar in pieces */
 /* ? Here */
+
 #panel {
   background-color: transparent !important;
+  border: none !important;
 }
+
 #panel .panel-button {
   border-color: #ff0043;
-  background-color: #111111;
+  background-color: #111;
   border: 1px;
 }
+
+#panel .panel-button.clock-display{
+  transition-duration: 150ms;
+  border: 0px solid transparent;
+  border-radius: 6px;
+  border: 1px solid #ff0043 !important;
+  background-color: #111 !important;
+  color: rgba(255, 255, 255, 0.7);
+}
+
 /* ? To here */
 /* ? The end of transparent TopBar */
 
 /* ! TopBar Panel */
 #panel {
-  background-color: #111111;
   font-weight: bold;
+  background-color: #111;
+  border: 1px solid #ff0043;
   color: rgba(255, 255, 255, 0.7);
   font-feature-settings: "tnum";
   transition-duration: 250ms;
@@ -2662,7 +2677,7 @@ StEntry StLabel.hint-text,
 #panel .panel-corner {
   -panel-corner-radius: 0;
   /* -panel-corner-background-color: #11111b; */
-  -panel-corner-background-color: #111111;
+  -panel-corner-background-color: #111;
   -panel-corner-border-width: 10px;
   -panel-corner-border-color: transparent;
   -panel-corner-opacity: 1;
@@ -2687,12 +2702,6 @@ StEntry StLabel.hint-text,
 }
 
 
-#panel .panel-button.clock-display .clock {
-  transition-duration: 150ms;
-  border: 0px solid transparent;
-  /* background-color: #D06DF7; */
-  /*color: white;*/
-}
 
 /* ! Hover of TopBar Buttons */
 #panel .panel-button:hover {
@@ -2700,6 +2709,23 @@ StEntry StLabel.hint-text,
   /* color: #FFFFFF !important; */
   color: #000 !important;
   box-shadow: none;
+}
+
+#panel .panel-button.clock-display:hover, #panel .panel-button.clock-display .clock:hover {
+  background-color: #ff0043;
+  color: #111;
+  box-shadow: none !important;
+}
+
+#panel .panel-button:hover.clock-display .clock {
+  color: #111 !important;
+  box-shadow: none !important;
+}
+
+#panel .panel-button:active.clock-display, #panel .panel-button:active.clock-display .clock {
+  color: #111 !important;
+  background-color: #ff0043 !important;
+  box-shadow: none !important;
 }
 
 #panel StBin:last-child .panel-button {
@@ -2712,15 +2738,6 @@ StEntry StLabel.hint-text,
   /* background: #D06DF7; */
 }
 
-#panel .panel-button:hover.clock-display {
-  box-shadow: none;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-#panel .panel-button:hover.clock-display .clock {
-  color: #FFFFFF;
-  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.12);
-}
 
 #panel .panel-button:active,
 #panel .panel-button:active:hover,
@@ -2732,7 +2749,7 @@ StEntry StLabel.hint-text,
 #panel .panel-button:checked:hover {
   /* * IF I WANT ACTIVE */
   background-color: #ff0043;
-  color: #FFFFFF;
+  color: #FFF;
   box-shadow: none;
 }
 
