@@ -17,7 +17,7 @@
   <p><b>⚠️Warning⚠️</b>: Don’t blindly use my settings unless you know what that entails. Use at your own risk!</p>
   <p>Configuration files for:</p>
     <ul>
-      <li>Alacritty
+      <li>Kitty
       <li>Zsh (<a href="https://github.com/romkatv/powerlevel10k">p10k</a>, <a href="https://github.com/zsh-users/zsh-autosuggestions">autosuggestions</a>, <a href="https://github.com/zsh-users/zsh-syntax-highlighting">highlighting</a> and history)
       <li>Lvim
       <li>Neofetch
@@ -72,7 +72,7 @@
   <p><b>Icons</b>: <a href="https://store.kde.org/p/1166289/">Papirus-Dark</a></p>
   <p><b>Folders</b>: <a href="https://github.com/PapirusDevelopmentTeam/papirus-folders">Papirus-Yaru</a></p>
   <p><b>Cursor</b>: <a href="https://www.gnome-look.org/p/1652458">ArcDusk Cursors</a> and <a href="https://www.gnome-look.org/p/1831077">Culloid-Cursors</a></p>
-  <p><b>Alacritty</b>: BeckerTheme</p>
+  <p><b>Kitty</b>: BeckerTheme</p>
 </div>
 
 <div align="center">
@@ -80,7 +80,7 @@
 
   <h3>Dependencies</h3>
   <p>To install the programs I use.</p>
-  <pre><code>yay -S zsh alacritty neofetch rofi cava</code></pre>
+  <pre><code>yay -S zsh kitty fastfatch rofi cava</code></pre>
   <p>First you will need to install the dependencies.</p>
   <pre><code>sudo pacman -S exa bat</code></pre>
 
