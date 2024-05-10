@@ -1,14 +1,14 @@
+if command -v fastfetch &> /dev/null; then
+  fastfetch
+fi
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-
 #POWERLEVEL10K_INSTANT_PROMPT=quiet
-
-# source ~/powerlevel10k/powerlevel10k.zsh-theme
-# source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 source ~/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/p10k.zsh.
@@ -17,9 +17,10 @@ source ~/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
 # Set cargo path
 export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH
 
-# Load Auto Suggestions on zsh
+
+# ! Load Modules
+# Load Auto Suggestions and Syntax Hightlighting on zsh
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
-# Load zsh zsh-syntax-highlighting
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # History Config
@@ -27,11 +28,12 @@ HISTFILE=~/.config/zsh/zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
-# Clear history
-alias clear-history="rm -f ~/.config/zsh/zsh_history && kill -9 $$"
-
 # Load "asdf" plugin
 source /opt/asdf-vm/asdf.sh
+
+# ! Alias
+# Clear history
+alias clear-history="rm -f ~/.config/zsh/zsh_history && kill -9 $$"
 
 # Replace with some better alternatives
 alias ls="exa --icons"
@@ -50,6 +52,3 @@ alias xampp="execute_commands"
 execute_commands() {
   sudo su -c "nohup /opt/lampp/manager-linux-x64.run > /dev/null 2>&1 & disown; exit" && exit
 }
-
-# Starting terminal with neofetch
-neofetch
