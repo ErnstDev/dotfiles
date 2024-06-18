@@ -30,8 +30,13 @@
     },
     {
       "type": "terminal",
-      "format": "{2}",
+      "format": "{1}",
       "key": "\u001b[31m"
+    },
+    {
+      "type": "shell",
+      "format": "{1}",
+      "key": "\u001b[31m"
     },
     {
       "type": "wm",
