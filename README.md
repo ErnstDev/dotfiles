@@ -17,12 +17,12 @@
   <p><b>⚠️Warning⚠️</b>: Don’t blindly use my settings unless you know what that entails. Use at your own risk!</p>
   <p>Configuration files for:</p>
     <ul>
-      <li>Kitty
+      <li>Kitty & Alacritty
       <li>Zsh (<a href="https://github.com/romkatv/powerlevel10k">p10k</a>, <a href="https://github.com/zsh-users/zsh-autosuggestions">autosuggestions</a>, <a href="https://github.com/zsh-users/zsh-syntax-highlighting">highlighting</a> and history)
+      <li>Fastfetch & Neofetch
+      <li>MPV & VLC
       <li>Lvim
-      <li>Neofetch
       <li>Rofi
-      <li>VLC
     </ul>
 </div>
 
@@ -42,11 +42,12 @@
   <h2 align="center">⚙ Extensions</h2>
   <p>Install using gnome extensions:</p>
   <ul>
+    <li><a href="https://extensions.gnome.org/extension/1401/bluetooth-quick-connect/">Bluetooth Quick Connect</a></li>
     <li><a href="https://extensions.gnome.org/extension/3193/blur-my-shell/">Blur my Shell</a></li>
-    <li><a href="https://extensions.gnome.org/extension/517/caffeine/">Caffeine</a></li>
     <li><a href="https://extensions.gnome.org/extension/3210/compiz-windows-effect/">Compiz window effect</a></li>
     <li><a href="https://extensions.gnome.org/extension/4783/default-workspace/">Default Workspace</a></li>
     <li><a href="https://extensions.gnome.org/extension/4158/gnome-40-ui-improvements/">Gnome 4x UI Improvements</a></li>
+    <li><a href="https://extensions.gnome.org/extension/3843/just-perfection/">Just Perfection</a></li>
     <li><a href="https://extensions.gnome.org/extension/4451/logo-menu/">Logo Menu</a></li>
     <li><a href="https://extensions.gnome.org/extension/4928/mpris-label/">Media Label and Controls (Mpris Label)</a></li>
     <li><a href="https://extensions.gnome.org/extension/5090/space-bar/">Space Bar</a></li>
