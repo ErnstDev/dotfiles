@@ -1,5 +1,6 @@
 #!/bin/zsh
 
+
 echo 'Installing dotfiles...'
 
 # ! Zsh
@@ -15,22 +16,21 @@ ln -s ~/.config/zsh/zshrc ~/.zshrc
 echo 'Zsh done!'
 
 # ! Neofetch
-echo 'Ricing neofetch...'
-mv -f ~/.config/neofetch ~/.config/neofetch.old
-cp -r .config/neofetch ~/.config/neofetch
-echo 'Neofetch done!'
+echo 'Ricing Fastfetch...'
+mv -f ~/.config/fastfetch ~/.config/fastfetch.old
+cp -r .config/fastfetch ~/.config/fastfetch
+echo 'Fastfetch done!'
 
-# ! Alacritty
-echo 'Ricing Alacritty...'
-mv -f ~/.config/alacritty ~/.config/alacritty.old
-cp -r .config/alacritty ~/.config/alacritty
-echo 'Alacritty done!'
+# ! Kitty
+echo 'Ricing Kitty...'
+mv -f ~/.config/kitty ~/.config/kitty.old
+cp -r .config/kitty ~/.config/kitty
+echo 'Kitty done!'
 
 # ! Cava
 echo 'Ricing Cava...'
 mv -f ~/.config/cava ~/.config/cava.old
 cp -r .config/cava ~/.config/cava
 echo 'Cava done!'
-
 
 echo 'Dotfiles installed successfully!'
