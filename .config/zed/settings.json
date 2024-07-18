@@ -1,0 +1,61 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  // Config
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 200
+    }
+  },
+  "format_on_save": "on",
+  "base_keymap": "VSCode",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "tab_size": 2,
+  "vim_mode": false,
+
+  // Font
+  "ui_font_family": "FiraCode Nerd Font",
+  "buffer_font_family": "FiraCode Nerd Font",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "buffer_font_features": {
+    "calt": true,
+    "liga": true
+  },
+
+  // Visual
+  "mode": "system",
+  "hour_format": "hour12",
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Becker Theme"
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false
+  },
+  "tabs": {
+    "git_status": true
+  },
+  "current_line_highlight": "gutter",
+  "indent_guides": {
+    // "coloring": "indent_aware"
+  }
+}
