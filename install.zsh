@@ -15,7 +15,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh
 ln -s ~/.config/zsh/zshrc ~/.zshrc
 echo 'Zsh done!'
 
-# ! Neofetch
+# ! Feofetch
 echo 'Ricing Fastfetch...'
 mv -f ~/.config/fastfetch ~/.config/fastfetch.old
 cp -r .config/fastfetch ~/.config/fastfetch
