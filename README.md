@@ -50,6 +50,7 @@
     <li><a href="https://extensions.gnome.org/extension/3843/just-perfection/">Just Perfection</a></li>
     <li><a href="https://extensions.gnome.org/extension/4451/logo-menu/">Logo Menu</a></li>
     <li><a href="https://extensions.gnome.org/extension/4928/mpris-label/">Media Label and Controls (Mpris Label)</a></li>
+    <li><a href="https://extensions.gnome.org/extension/5964/quick-settings-audio-devices-hider/">Quick Settings Audio Devices Hider</a></li>
     <li><a href="https://extensions.gnome.org/extension/5090/space-bar/">Space Bar</a></li>
     <li><a href="https://extensions.gnome.org/extension/6385/steal-my-focus-window/">Steal my focus window</a></li>
     <li><a href="https://extensions.gnome.org/extension/4356/top-bar-organizer/">Top Bar Organizer</a></li>
@@ -81,7 +82,8 @@
 
   <h3>Dependencies</h3>
   <p>To install the programs I use.</p>
-  <pre><code>yay -S zsh kitty fastfetch rofi cava exa bat</code></pre>
+  <pre><code>chmod -x programs.zsh</code>
+  <code>zsh programs.zsh</code></pre>
 
   <h3>Fonts and Themes</h3>
   <p>For install necessary fonts and themes.</p>
