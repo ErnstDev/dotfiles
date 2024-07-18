@@ -29,7 +29,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 
 # Load "asdf" plugin
-source /opt/asdf-vm/asdf.sh
+source /opt/asdf-vm/asdf.sh 
 
 # ! Alias
 # Clear history
@@ -39,13 +39,12 @@ alias clear-history="rm -f ~/.config/zsh/zsh_history && kill -9 $$"
 alias ls="exa --icons"
 alias cat="bat --style=auto"
 alias ani-cli="ani-cli"
-alias gedit="gnome-text-editor"
 
 # Common use
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 # Cleanup orphaned packages
-alias clean-up='sudo pacman -Rns $(pacman -Qtdq)'
+alias clean-up="sudo pacman -Rns $(pacman -Qtdq)"
 
 # Start Xampp
 alias xampp="execute_commands"

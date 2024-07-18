@@ -53,7 +53,7 @@
     <li><a href="https://extensions.gnome.org/extension/5090/space-bar/">Space Bar</a></li>
     <li><a href="https://extensions.gnome.org/extension/6385/steal-my-focus-window/">Steal my focus window</a></li>
     <li><a href="https://extensions.gnome.org/extension/4356/top-bar-organizer/">Top Bar Organizer</a></li>
-    <li><a href="https://extensions.gnome.org/extension/1460/vitals/">Vitals</a></li>
+    <li><a href="https://extensions.gnome.org/extension/6807/system-monitor/">System Monitor</a></li>
     <li><a href="https://extensions.gnome.org/extension/16/auto-move-windows/">Auto Move Windows</a></li>
     <li><a href="https://extensions.gnome.org/extension/18/native-window-placement/">Native Windows Placement</a></li>
     <li><a href="https://extensions.gnome.org/extension/19/user-themes/">User Themes</a></li>
@@ -81,15 +81,15 @@
 
   <h3>Dependencies</h3>
   <p>To install the programs I use.</p>
-  <pre><code>yay -S zsh kitty fastfatch rofi cava</code></pre>
-  <p>First you will need to install the dependencies.</p>
-  <pre><code>sudo pacman -S exa bat</code></pre>
+  <pre><code>yay -S zsh kitty fastfetch rofi cava exa bat</code></pre>
 
   <h3>Fonts and Themes</h3>
   <p>For install necessary fonts and themes.</p>
-  <pre><code>chmod -x fontsthemes.zsh</code><code>zsh fontsthemes.zsh</code></pre>
+  <pre><code>chmod -x fontsthemes.zsh</code>
+  <code>zsh fontsthemes.zsh</code></pre>
 
   <h3>Dotfiles</h3>
   <p>To apply the dotfiles, run the zsh script.</p>
-  <pre><code>chmod -x install.zsh</code><code>zsh install.zsh</code></pre>
+  <pre><code>chmod -x install.zsh</code>
+  <code>zsh install.zsh</code></pre>
 </div>
