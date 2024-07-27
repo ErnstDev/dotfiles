@@ -30,11 +30,11 @@
   <h2>📸 Screenshots</h2>
   <p><b>⚠️Illustrative images do not represent the final result!⚠️</b></p>
   <div>
-    <img src="Infos/Screenshots/1.png">
+    <img src="Infos/Screenshots/1">
     <br><br>
-    <img src="Infos/Screenshots/2.png">
+    <img src="Infos/Screenshots/2">
     <br><br>
-    <img src="Infos/Screenshots/3.png">
+    <img src="Infos/Screenshots/3">
   </div>
 </div>
 
