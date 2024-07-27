@@ -10,7 +10,7 @@
 </div>
 
 <div align="center">
-  <h2 >🚧  Work in Progress  🚧</h2>
+  <h2>🚧  Work in Progress  🚧</h2>
 </div>
 
 <div align="left">
@@ -42,39 +42,31 @@
   <h2 align="center">⚙ Extensions</h2>
   <p>Install using gnome extensions:</p>
   <ul>
-    <li><a href="https://extensions.gnome.org/extension/1401/bluetooth-quick-connect/">Bluetooth Quick Connect</a></li>
     <li><a href="https://extensions.gnome.org/extension/3193/blur-my-shell/">Blur my Shell</a></li>
-    <li><a href="https://extensions.gnome.org/extension/3210/compiz-windows-effect/">Compiz window effect</a></li>
     <li><a href="https://extensions.gnome.org/extension/4783/default-workspace/">Default Workspace</a></li>
-    <li><a href="https://extensions.gnome.org/extension/4158/gnome-40-ui-improvements/">Gnome 4x UI Improvements</a></li>
-    <li><a href="https://extensions.gnome.org/extension/3843/just-perfection/">Just Perfection</a></li>
     <li><a href="https://extensions.gnome.org/extension/4451/logo-menu/">Logo Menu</a></li>
     <li><a href="https://extensions.gnome.org/extension/4928/mpris-label/">Media Label and Controls (Mpris Label)</a></li>
     <li><a href="https://extensions.gnome.org/extension/5964/quick-settings-audio-devices-hider/">Quick Settings Audio Devices Hider</a></li>
     <li><a href="https://extensions.gnome.org/extension/5090/space-bar/">Space Bar</a></li>
     <li><a href="https://extensions.gnome.org/extension/6385/steal-my-focus-window/">Steal my focus window</a></li>
-    <li><a href="https://extensions.gnome.org/extension/4356/top-bar-organizer/">Top Bar Organizer</a></li>
-    <li><a href="https://extensions.gnome.org/extension/6807/system-monitor/">System Monitor</a></li>
     <li><a href="https://extensions.gnome.org/extension/16/auto-move-windows/">Auto Move Windows</a></li>
-    <li><a href="https://extensions.gnome.org/extension/18/native-window-placement/">Native Windows Placement</a></li>
     <li><a href="https://extensions.gnome.org/extension/19/user-themes/">User Themes</a></li>
   </ul>
   <p>Install manually:</p>
   <ul>
     <li><a href="https://github.com/yilozt/rounded-window-corners">Rounded Window Corners</a></li>
     <li><a href="https://github.com/pop-os/shell">Pop Shell</a></li>
-    <li><a href="https://github.com/hardpixel/unite-shell">Unite</a></li>
   </ul>
   <p>Click <a href="Infos/extensions.md">here</a> to see how to configure the extensions.</p>
 </div>
 
 <div align="center">
   <h2>🎨 Themes</h2>
-  <p><b>Shell</b>: BeckerTheme (Modded version of catppuccin)</p>
+  <p><b>Kitty</b>: BeckerTheme</p>
+  <p><b>Shell</b>: BeckerTheme</p>
   <p><b>Icons</b>: <a href="https://store.kde.org/p/1166289/">Papirus-Dark</a></p>
   <p><b>Folders</b>: <a href="https://github.com/PapirusDevelopmentTeam/papirus-folders">Papirus-Yaru</a></p>
-  <p><b>Cursor</b>: <a href="https://www.gnome-look.org/p/1652458">ArcDusk Cursors</a> and <a href="https://www.gnome-look.org/p/1831077">Culloid-Cursors</a></p>
-  <p><b>Kitty</b>: BeckerTheme</p>
+  <p><b>Cursor</b>: <a href="https://www.gnome-look.org/p/1831077">Culloid-Cursors</a></p>
 </div>
 
 <div align="center">
