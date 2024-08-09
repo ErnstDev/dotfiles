@@ -11,12 +11,11 @@ fi
 #POWERLEVEL10K_INSTANT_PROMPT=quiet
 source ~/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
 
-# To customize prompt, run `p10k configure` or edit ~/.config/zsh/p10k.zsh.
+# To customize prompt, run `p10k configure` or edit ~/.config/zsh/p10k.zsh
 [[ ! -f ~/.config/zsh/p10k.zsh ]] || source ~/.config/zsh/p10k.zsh
 
-# Set cargo path
+# ! Ambient variables
 export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH
-
 
 # ! Load Modules
 # Load Auto Suggestions and Syntax Hightlighting on zsh
@@ -25,20 +24,19 @@ source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # History Config
 HISTFILE=~/.config/zsh/zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=1000
+SAVEHIST=1000
 
 # Load "asdf" plugin
-source /opt/asdf-vm/asdf.sh 
+source ~/.config/asdf/asdf.sh 
 
 # ! Alias
 # Clear history
 alias clear-history="rm -f ~/.config/zsh/zsh_history && kill -9 $$"
 
 # Replace with some better alternatives
-alias ls="exa --icons"
+alias ls="lsd --recursive --depth 1 --group-dirs=first"
 alias cat="bat --style=auto"
-alias ani-cli="ani-cli"
 
 # Common use
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
