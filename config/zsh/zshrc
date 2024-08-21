@@ -2,20 +2,15 @@ if command -v fastfetch &> /dev/null; then
   fastfetch
 fi
 
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-#POWERLEVEL10K_INSTANT_PROMPT=quiet
-source ~/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
-
-# To customize prompt, run `p10k configure` or edit ~/.config/zsh/p10k.zsh
-[[ ! -f ~/.config/zsh/p10k.zsh ]] || source ~/.config/zsh/p10k.zsh
-
 # ! Ambient variables
-export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/.local/bin:$PATH
+
+# Load oh-my-posh and zoxide
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+eval "$(zoxide init --cmd cd zsh)"
+
+# Load "asdf" plugin
+source ~/.config/asdf/asdf.sh
 
 # ! Load Modules
 # Load Auto Suggestions and Syntax Hightlighting on zsh
@@ -27,8 +22,6 @@ HISTFILE=~/.config/zsh/zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
 
-# Load "asdf" plugin
-source ~/.config/asdf/asdf.sh 
 
 # ! Alias
 # Clear history
@@ -40,12 +33,13 @@ alias cat="bat --style=auto"
 
 # Common use
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-
 # Cleanup orphaned packages
 alias clean-up="sudo pacman -Rns $(pacman -Qtdq)"
+
 
 # Start Xampp
 alias xampp="execute_commands"
 execute_commands() {
   sudo su -c "nohup /opt/lampp/manager-linux-x64.run > /dev/null 2>&1 & disown; exit" && exit
 }
+
