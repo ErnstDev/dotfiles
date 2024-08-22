@@ -6,14 +6,18 @@ echo 'Installing dotfiles...'
 # ! Zsh
 echo 'Ricing Zsh...'
 cp -r config/zsh ~/.config/zsh
-echo 'Installing powerlevel10k'
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.config/zsh/powerlevel10k
 echo 'Installing zsh-autosuggestions'
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.config/zsh/zsh-autosuggestions
 echo 'Installing sh-syntax-highlighting'
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh/zsh-syntax-highlighting
 ln -s ~/.config/zsh/zshrc ~/.zshrc
 echo 'Zsh done!'
+
+# ! Oh-My-Posh
+echo 'Ricing Oh-My-Posh...'
+paru -S oh-my-posh
+mv -f ~/.config/ohmyposh ~/.config/ohmyposh.old
+cp -f config/ohmyposh ~/.config/ohmyposh
 
 # ! Fastfetch
 echo 'Ricing Fastfetch...'

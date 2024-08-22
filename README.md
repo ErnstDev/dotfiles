@@ -18,7 +18,7 @@
   <p>Configuration files for:</p>
     <ul>
       <li>Kitty & Alacritty
-      <li>Zsh (<a href="https://github.com/romkatv/powerlevel10k">p10k</a>, <a href="https://github.com/zsh-users/zsh-autosuggestions">autosuggestions</a>, <a href="https://github.com/zsh-users/zsh-syntax-highlighting">highlighting</a> and history)
+      <li>Zsh (<a href="https://github.com/JanDeDobbeleer/oh-my-posh">ohmyposh</a>, <a href="https://github.com/zsh-users/zsh-autosuggestions">autosuggestions</a>, <a href="https://github.com/zsh-users/zsh-syntax-highlighting">highlighting</a> and history)
       <li>Fastfetch & Neofetch
       <li>MPV & VLC
       <li>Lvim
