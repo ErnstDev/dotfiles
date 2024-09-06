@@ -1,13 +1,13 @@
-# Dotfiles
+<!-- Dotfiles -->
 alacritty
 neofetch
 bspwm
 
-# Git
+<!-- Git -->
 .git
 README.md
 
-# Folders
+<!-- Folders -->
 Scripts
 scripts
 Info
