@@ -3,6 +3,12 @@
   <h3>🚧  Work in Progress  🚧</h3>
 </div>
 
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/ernstbecker/dotfiles?&labelColor=151515&color=ff0043">
+  <img src="https://img.shields.io/github/stars/ernstbecker/dotfiles?style=flat&labelColor=151515&color=ff0043">
+  <img src="https://img.shields.io/github/repo-size/ernstbecker/dotfiles?&labelColor=151515&color=ff0043">
+</p>
+
 <div align="center">
   <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -13,6 +19,8 @@
 
 ## 🏮 About
 
+> [!WARNING]
+>
 **⚠️Warning⚠️**: Don’t blindly use my settings unless you understand what they entail. Use at your own risk!
 
 These are the configuration files I use in my daily life. I hope they can help you as well.
@@ -66,14 +74,12 @@ Click [here](Infos/extensions.md) to see how to configure the extensions.
 For the installation of programs dependencies (fonts, themes, programs, etc.). You can run the script.
 
 ```bash
-git clone https://github.com/ernstbecker/dotfiles.git
-cd dotfiles
 chmod +x Scripts/install.zsh
 zsh Scripts/install.zsh
 ```
 
 ### Dotfiles
-To install the dotfiles, clone on your home directory and run stow.
+If you need help with the stow command, you can read [here](https://www.gnu.org/software/stow/manual/stow.html).
 
 ```bash
 stow .
