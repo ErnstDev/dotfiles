@@ -1,10 +1,13 @@
+# Dotfiles
+alacritty
+neofetch
+
+# Git
 .git
-fontshemes.zsh
-fullinstall.zsh
-install.zsh
-programs
+README.md
+
+# Folders
+Scripts
 Info
 Pictures
-README.md
-scripts
 .themes
