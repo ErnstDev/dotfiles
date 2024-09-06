@@ -20,8 +20,7 @@
 ## 🏮 About
 
 > [!WARNING]
->
-**⚠️Warning⚠️**: Don’t blindly use my settings unless you understand what they entail. Use at your own risk!
+> Don’t blindly use my settings unless you understand what they entail. Use at your own risk!
 
 These are the configuration files I use in my daily life. I hope they can help you as well.
 
