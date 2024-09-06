@@ -5,6 +5,7 @@ bspwm
 
 <!-- Git -->
 .git
+.gitignore
 README.md
 
 <!-- Folders -->
