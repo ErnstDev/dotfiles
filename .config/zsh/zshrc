@@ -5,17 +5,20 @@ fi
 # ! Ambient variables
 export PATH=$HOME/.local/bin:$HOME/.local/bin:$PATH
 
+
 # Load oh-my-posh and zoxide
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/config.toml)"
 eval "$(zoxide init --cmd cd zsh)"
 
+
 # Load "asdf" plugin
 source ~/.config/asdf/asdf.sh
 
-# ! Load Modules
-# Load Auto Suggestions and Syntax Hightlighting on zsh
-source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
-source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Load Zsh plugins (Auto Suggestions and Syntax Hightlighting)
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
 # History Config
 HISTFILE=~/.config/zsh/zsh_history
