@@ -6,7 +6,7 @@ fi
 export PATH=$HOME/.local/bin:$HOME/.local/bin:$PATH
 
 # Load oh-my-posh and zoxide
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/config.toml)"
 eval "$(zoxide init --cmd cd zsh)"
 
 # Load "asdf" plugin
@@ -31,8 +31,10 @@ alias clear-history="rm -f ~/.config/zsh/zsh_history && kill -9 $$"
 alias ls="lsd --recursive --depth 1 --group-dirs=first"
 alias cat="bat --style=auto"
 
+
 # Common use
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias bsprestart="bspc wm -r"
 # Cleanup orphaned packages
 alias clean-up="sudo pacman -Rns $(pacman -Qtdq)"
 
