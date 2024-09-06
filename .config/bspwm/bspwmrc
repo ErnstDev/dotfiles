@@ -1,0 +1,39 @@
+#! /bin/sh
+
+
+# █░░ ▄▀█ █░█ █▄░█ █▀▀ █░█
+# █▄▄ █▀█ █▄█ █░▀█ █▄▄ █▀█
+sh ~/.config/bspwm/autostart
+pgrep -x sxhkd > /dev/null || sxhkd -c ~/.config/bspwm/sxhkdrc &
+
+
+# █ █▄░█ █▀█ █░█ ▀█▀
+# █ █░▀█ █▀▀ █▄█ ░█░
+setxkbmap -model abnt2 -layout br
+xinput --set-prop 8 "libinput Accel Profile Enabled" 0, 1
+xinput --set-prop 8 "libinput Accel Speed" 0
+
+
+# █▀▄▀█ █▀█ █▄░█ █ ▀█▀ █▀█ █▀█
+# █░▀░█ █▄█ █░▀█ █ ░█░ █▄█ █▀▄
+bspc monitor HDMI-0 -d I II III IV V VI
+bspc monitor DVI-I-0 -d VII
+xrandr --output HDMI-0 --auto --primary --output DVI-I-0 --auto --pos 0x312
+
+
+# █░░ ▄▀█ █▄█ █▀█ █░█ ▀█▀
+# █▄▄ █▀█ ░█░ █▄█ █▄█ ░█░
+bspc config window_gap 10
+bspc config split_ratio          0.50
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+
+# █▀▄▀█ █ █▀ █▀▀
+# █░▀░█ █ ▄█ █▄▄
+bspc rule -a rofi focus=on state=foating
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
