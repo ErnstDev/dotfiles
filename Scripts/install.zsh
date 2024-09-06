@@ -13,7 +13,7 @@ $package_manager -S inter-font noto-fonts-cjk noto-fonts-emoji noto-fonts ttf-ca
 papirus-folders -C yaru --theme Papirus-Dark
 
 # ! Zsh
-$package_manager -S zsh zoxide ohmyposh zsh-syntax-highlighting zsh-autosuggestions
+$package_manager -S zsh zoxide lsd bat ohmyposh zsh-syntax-highlighting zsh-autosuggestions
 
 # ! Programs
 $package_manager -S visual-studio-code-bin spotify docker docker-desktop vesktop-bin kitty mpv fastfetch cava pipes.sh ani-cli
