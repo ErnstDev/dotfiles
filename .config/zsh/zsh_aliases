@@ -1,0 +1,21 @@
+# Ernst's Zsh alias file
+
+# My personal use
+alias clear-history="rm -f ~/.config/zsh/zsh_history && kill -9 $$"
+alias clean-up="sudo pacman -Rns $(pacman -Qtdq)"
+
+# Replace with some better alternatives
+alias ls="lsd --recursive --depth 1 --group-dirs=first"
+alias cat="bat --style=auto"
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+# Git
+alias gs="git status"
+
+# Start Programs
+# 
+# Xampp
+alias xampp="start_xampp"
+start_xampp() {
+  sudo su -c "nohup /opt/lampp/manager-linux-x64.run > /dev/null 2>&1 & disown; exit" && exit
+}
