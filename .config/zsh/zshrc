@@ -1,6 +1,13 @@
+# Run Fastfetch
 if command -v fastfetch &> /dev/null; then
   fastfetch
 fi
+
+# Load zsh_aliases 
+if [ -f ~/.config/zsh/zsh_aliases ]; then
+  source ~/.config/zsh/zsh_aliases
+fi
+
 
 # ! Ambient variables
 export PATH=$HOME/.local/bin:$HOME/.local/bin:$PATH
@@ -18,33 +25,8 @@ source ~/.config/asdf/asdf.sh
 # Load Zsh plugins (Auto Suggestions and Syntax Hightlighting)
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
 # History Config
 HISTFILE=~/.config/zsh/zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
-
-
-# ! Alias
-# Clear history
-alias clear-history="rm -f ~/.config/zsh/zsh_history && kill -9 $$"
-
-# Replace with some better alternatives
-alias ls="lsd --recursive --depth 1 --group-dirs=first"
-alias cat="bat --style=auto"
-
-
-# Common use
-alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-alias bsprestart="bspc wm -r"
-# Cleanup orphaned packages
-alias clean-up="sudo pacman -Rns $(pacman -Qtdq)"
-
-
-# Start Xampp
-alias xampp="execute_commands"
-execute_commands() {
-  sudo su -c "nohup /opt/lampp/manager-linux-x64.run > /dev/null 2>&1 & disown; exit" && exit
-}
 
