@@ -7,14 +7,14 @@ super + t
 	kitty
 
 super + e
-  brave
+  google-chrome-stable
 
 super + f
   nautilus
 
 # program launcher
 super + @space
-	zsh $HOME/.config/scripts/rofi.zsh
+	zsh $HOME/dotfiles/.config/scripts/rofi.zsh
 
 # make sxhkd reload its configuration files:
 super + Escape
