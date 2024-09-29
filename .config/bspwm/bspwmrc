@@ -4,6 +4,7 @@
 # █░░ ▄▀█ █░█ █▄░█ █▀▀ █░█
 # █▄▄ █▀█ █▄█ █░▀█ █▄▄ █▀█
 sh ~/.config/bspwm/autostart
+sh ~/.config/bspwm/monitor
 pgrep -x sxhkd > /dev/null || sxhkd -c ~/.config/bspwm/sxhkdrc &
 
 
@@ -12,13 +13,6 @@ pgrep -x sxhkd > /dev/null || sxhkd -c ~/.config/bspwm/sxhkdrc &
 setxkbmap -model abnt2 -layout br
 xinput --set-prop 8 "libinput Accel Profile Enabled" 0, 1
 xinput --set-prop 8 "libinput Accel Speed" 0
-
-
-# █▀▄▀█ █▀█ █▄░█ █ ▀█▀ █▀█ █▀█
-# █░▀░█ █▄█ █░▀█ █ ░█░ █▄█ █▀▄
-bspc monitor HDMI-0 -d I II III IV V VI
-bspc monitor DVI-I-0 -d VII
-xrandr --output HDMI-0 --auto --primary --output DVI-I-0 --auto --pos 0x312
 
 
 # █░░ ▄▀█ █▄█ █▀█ █░█ ▀█▀
