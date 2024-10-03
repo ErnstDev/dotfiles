@@ -9,17 +9,9 @@ if [ -f ~/.config/zsh/zsh_aliases ]; then
 fi
 
 
-# ! Ambient variables
-export PATH=$HOME/.local/bin:$HOME/.local/bin:$PATH
-
-
 # Load oh-my-posh and zoxide
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/config.toml)"
 eval "$(zoxide init --cmd cd zsh)"
-
-
-# Load "asdf" plugin
-source ~/.config/asdf/asdf.sh
 
 
 # Load Zsh plugins (Auto Suggestions and Syntax Hightlighting)
@@ -30,3 +22,6 @@ HISTFILE=~/.config/zsh/zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
 
+
+# Lunar Vim
+export PATH=/home/ernst/.local/bin:$PATH
