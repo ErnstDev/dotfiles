@@ -19,4 +19,4 @@ $package_manager -S zsh zoxide lsd bat ohmyposh zsh-syntax-highlighting zsh-auto
 $package_manager -S visual-studio-code-bin spotify docker docker-desktop vesktop-bin kitty mpv fastfetch cava pipes.sh ani-cli
 
 # ! Cursors
-$package_manager -Scolloid-cursors-git
+$package_manager -S colloid-cursors-git
