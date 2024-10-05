@@ -12,7 +12,7 @@ pgrep -x sxhkd > /dev/null || sxhkd -c ~/.config/bspwm/sxhkdrc &
 # █ █░▀█ █▀▀ █▄█ ░█░
 setxkbmap -model abnt2 -layout br
 xinput --set-prop 8 "libinput Accel Profile Enabled" 0, 1
-xinput --set-prop 8 "libinput Accel Speed" 0
+xinput --set-prop 8 "libinput Accel Speed" -0.2
 
 
 # █░░ ▄▀█ █▄█ █▀█ █░█ ▀█▀
