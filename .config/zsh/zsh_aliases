@@ -16,8 +16,9 @@ alias audio="pulsemixer"
 # Git
 alias gs="git status"
 alias ga="git add ."
-alias gpf="git push"
-alias gp="git pull"
+alias gc="git commit -m"
+alias gp="git push"
+alias gpl="git pull"
 alias grs="git reset --soft HEAD~1"
 alias grh="git reset --hard HEAD~1"
 
