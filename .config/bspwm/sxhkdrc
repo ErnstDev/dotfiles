@@ -17,7 +17,7 @@ super + control + {Left, Right}
 
 # Screenshots
 super + shift + s
-  scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Pictures/Screenshots && mv $f ~/Pictures/Screenshots && xclip -selection clipboard -t image/png -i ~/Pictures/Screenshots/`ls -1 -t ~/Pictures/Screenshots | head -1`'
+  maim -s ~/Pictures/Screenshots/screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png && xclip -selection clipboard -t image/png -i ~/Pictures/Screenshots/$(ls -1t ~/Pictures/Screenshots | head -1)
 
 
 # make sxhkd reload its configuration files:
