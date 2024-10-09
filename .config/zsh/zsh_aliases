@@ -4,6 +4,7 @@
 alias clear-history="rm -f ~/.config/zsh/zsh_history && kill -9 $$"
 alias clean-up="sudo pacman -Rns $(pacman -Qtdq)"
 
+
 # Replace with some better alternatives
 alias ls="lsd --recursive --depth 1 --group-dirs=first"
 alias cat="bat --style=auto"
@@ -11,8 +12,15 @@ alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias clock="tty-clock -c -C 1 -b -s"
 alias audio="pulsemixer"
 
+
 # Git
 alias gs="git status"
+alias ga="git add ."
+alias gpf="git push"
+alias gp="git pull"
+alias grs="git reset --soft HEAD~1"
+alias grh="git reset --hard HEAD~1"
+
 
 # Start Programs
 # 
