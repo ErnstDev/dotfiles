@@ -2,7 +2,6 @@
 alacritty
 neofetch
 
-
 <!-- Git -->
 .git
 .gitignore
@@ -12,4 +11,3 @@ README.md
 Scripts
 scripts
 Info
-Pictures
