@@ -25,3 +25,7 @@ SAVEHIST=1000
 
 # Lunar Vim
 export PATH=/home/ernst/.local/bin:$PATH
+
+
+# Diode
+export PATH=/opt/diode:$PATH
