@@ -3,7 +3,8 @@ super + t
 	kitty
 
 super + e
-  google-chrome-stable
+  zen-browser
+#  google-chrome-stable
 
 super + f
   nautilus
