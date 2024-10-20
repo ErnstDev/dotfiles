@@ -7,7 +7,7 @@ super + e
 #  google-chrome-stable
 
 super + f
-  nautilus
+  kitty ranger
 
 super + @space
 	zsh $HOME/dotfiles/.config/scripts/rofi.zsh
