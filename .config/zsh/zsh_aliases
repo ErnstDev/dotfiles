@@ -11,11 +11,17 @@ alias ls="lsd --recursive --depth 1 --group-dirs=first"
 alias cat="bat --style=auto"
 
 
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+
+
 # Lazy aliases
 alias c="clear"
 alias clock="tty-clock -c -C 1 -b -s"
 alias audio="pulsemixer"
 alias ff="fastfetch"
+alias battery="acpi"
 
 
 # Git
