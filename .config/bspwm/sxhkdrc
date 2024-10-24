@@ -3,8 +3,7 @@ super + t
 	kitty
 
 super + e
-  zen-browser
-#  google-chrome-stable
+  google-chrome-stable
 
 super + f
   kitty ranger
