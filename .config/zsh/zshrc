@@ -69,3 +69,9 @@ export PATH=/home/ernst/.local/bin:$PATH
 
 # Diode
 export PATH=/opt/diode:$PATH
+
+# Asdf
+. /opt/asdf-vm/asdf.sh
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
