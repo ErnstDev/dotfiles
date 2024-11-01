@@ -1,3 +1,5 @@
 [user]
 	email = ernst.becker.neto@gmail.com
 	name = ErnstBecker
+[core]
+	editor = code --wait
