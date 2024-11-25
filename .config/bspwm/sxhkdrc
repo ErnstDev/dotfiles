@@ -3,7 +3,7 @@ super + t
 	kitty
 
 super + e
-  google-chrome-stable
+  firefox
 
 super + f
   kitty ranger
