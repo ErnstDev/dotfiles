@@ -3,7 +3,7 @@ super + t
 	kitty
 
 super + e
-  firefox
+  firefox-esr
 
 super + f
   kitty ranger
