@@ -64,9 +64,6 @@ setopt hist_find_no_dups
 
 # PATHs
 #
-# Lunar Vim
-export PATH=/home/ernst/.local/bin:$PATH
-
 # Diode
 export PATH=/opt/diode:$PATH
 
