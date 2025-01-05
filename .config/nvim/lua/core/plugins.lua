@@ -20,13 +20,14 @@ require("lazy").setup({
   spec = {
     -- import your plugins
     {
-			"rebelot/kanagawa.nvim", 	
+			"rebelot/kanagawa.nvim",
 			"nvim-tree/nvim-tree.lua",
+			"nvim-tree/nvim-web-devicons",
 		},
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "kanagawa-dragon" } },
+  install = { colorscheme = { "kanagawa" } },
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
