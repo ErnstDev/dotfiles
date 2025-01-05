@@ -22,3 +22,7 @@ vim.opt.shiftwidth = 2
 vim.opt.shiftround = true
 vim.opt.expandtab = false
 
+
+vim.o.number = true
+vim.cmd("autocmd ColorScheme * hi LineNr guibg=NONE ctermbg=NONE")
+
