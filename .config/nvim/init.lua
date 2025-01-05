@@ -4,4 +4,4 @@ require("core.plugins")
 
 
 require("core.configs.colorscheme")
-require("core.configs.nvimtree")
+require("core.configs.telescope")

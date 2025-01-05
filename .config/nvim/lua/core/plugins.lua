@@ -20,11 +20,21 @@ require("lazy").setup({
   spec = {
     -- import your plugins
     {
-			"rebelot/kanagawa.nvim",
-			"nvim-tree/nvim-tree.lua",
-			"nvim-tree/nvim-web-devicons",
+			'rebelot/kanagawa.nvim',
+			'nvim-telescope/telescope.nvim',
+			--"nvim-tree/nvim-tree.lua",
+			--"nvim-tree/nvim-web-devicons",
 		},
-  },
+		{
+			'nvim-neo-tree/neo-tree.nvim',
+			dependencies = {
+				'nvim-lua/plenary.nvim',
+				'nvim-tree/nvim-web-devicons', -- not strictly required, but recommended
+				'MunifTanjim/nui.nvim',
+    	}
+		},
+    
+	},
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
   install = { colorscheme = { "kanagawa" } },
