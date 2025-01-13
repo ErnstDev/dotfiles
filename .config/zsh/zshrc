@@ -68,7 +68,7 @@ setopt hist_find_no_dups
 export PATH=/opt/diode:$PATH
 
 # Asdf
-. /opt/asdf-vm/asdf.sh
+. ~/.config/asdf/asdf.sh
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
