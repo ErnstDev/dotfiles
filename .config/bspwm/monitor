@@ -3,7 +3,7 @@
 
 # █▀▄▀█ █▀█ █▄░█ █ ▀█▀ █▀█ █▀█
 # █░▀░█ █▄█ █░▀█ █ ░█░ █▄█ █▀▄
-bspc monitor DP-1 -d I II III IV V VI
-bspc monitor HDMI-1 -d VII
-xrandr --output DP-1 --auto --primary --output HDMI-1 --auto --pos 0x1920
-
+#bspc monitor HDMI-0 -d I II III IV V VI
+#bspc monitor DVI-I-0 VII
+#xrandr --output HDMI-0 --auto --primary --output DVI-I-0 --auto --pos 0x312
+bspc monitor eDP1 -d I II III IV V VI
