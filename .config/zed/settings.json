@@ -20,7 +20,7 @@
     "metrics": false
   },
   "tab_size": 2,
-  "vim_mode": false,
+  "vim_mode": true,
 
   // Font
   "ui_font_family": "FiraCode Nerd Font",
@@ -37,7 +37,7 @@
   "hour_format": "hour12",
   "theme": {
     "mode": "system",
-    "light": "One Light",
+    "light": "Becker Theme",
     "dark": "Becker Theme"
   },
   "scrollbar": {
