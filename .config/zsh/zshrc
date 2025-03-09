@@ -35,9 +35,9 @@ eval "$(fzf --zsh)"
 
 # Load zsh plugins with Zinit
 zinit light Aloxaf/fzf-tab
-zinit light zsh-users/zsh-syntax-highlighting
+zinit load zsh-users/zsh-syntax-highlighting
+zinit load zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
-zinit light zsh-users/zsh-autosuggestions
 autoload -U compinit && compinit
 
 
@@ -50,7 +50,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
 # History
 HISTFILE=~/.config/zsh/zsh_history
-HISTSIZE=1000
+HISTSIZE=500
 SAVEHIST=$HISTSIZE
 HISTDUP=erase
 setopt appendhistory
@@ -64,9 +64,6 @@ setopt hist_find_no_dups
 
 # PATHs
 #
-# Diode
-export PATH=/opt/diode:$PATH
-
 # Asdf
 . ~/.config/asdf/asdf.sh
 
