@@ -3,3 +3,5 @@
 	name = ErnstBecker
 [core]
 	editor = code --wait
+[init]
+	defaultBranch = main
