@@ -65,13 +65,9 @@ setopt hist_find_no_dups
 # PATHs
 #
 # Asdf
-. ~/.config/asdf/asdf.sh
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+# append completions to fpath
+fpath=(${ASDF_DATA_DIR:-$HOME/.asdf}/completions $fpath)
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
-[[ -s "/home/ernst/.gvm/scripts/gvm" ]] && source "/home/ernst/.gvm/scripts/gvm"
