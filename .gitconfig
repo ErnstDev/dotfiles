@@ -6,7 +6,7 @@
 [init]
 	defaultBranch = main
 [gpg]
-	program = /usr/local/bin/gpg
+	program = /sbin/gpg
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
 [push]
