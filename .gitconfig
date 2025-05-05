@@ -11,3 +11,5 @@
 	insteadOf = https://github.com/
 [push]
 	default = current
+[commit]
+	gpgsign = false 
