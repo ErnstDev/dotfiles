@@ -1,7 +1,7 @@
 # Run Fastfetch
-if command -v fastfetch &> /dev/null; then
-  fastfetch
-fi
+# if command -v fastfetch &> /dev/null; then
+#  fastfetch
+# fi
 
 
 # Load zsh_aliases 
@@ -70,4 +70,4 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 fpath=(${ASDF_DATA_DIR:-$HOME/.asdf}/completions $fpath)
 
 # Load Angular CLI autocompletion.
-source <(ng completion script)
+# source <(ng completion script)
