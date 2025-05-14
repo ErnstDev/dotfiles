@@ -1,15 +1,24 @@
+[core]
+	editor = code --wait
+
+[init]
+	defaultBranch = main
+
+[gpg]
+	program = /sbin/gpg
+
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+
+[push]
+	default = current
+
+[commit]
+	gpgsign = true 
+
+[includeIf "gitdir:~/Work/"]
+	path = ~/.gitconfig-work
+
 [user]
 	email = ernst.becker.neto@gmail.com
 	name = ErnstBecker
-[core]
-	editor = code --wait
-[init]
-	defaultBranch = main
-[gpg]
-	program = /sbin/gpg
-[url "ssh://git@github.com/"]
-	insteadOf = https://github.com/
-[push]
-	default = current
-[commit]
-	gpgsign = false 
