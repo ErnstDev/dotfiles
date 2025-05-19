@@ -13,6 +13,9 @@
 [push]
 	default = current
 
+[pull]
+	default = current
+
 [commit]
 	gpgsign = true 
 
@@ -22,3 +25,4 @@
 [user]
 	email = ernst.becker.neto@gmail.com
 	name = ErnstBecker
+	signingkey = 83481D2AC57A2EA3
