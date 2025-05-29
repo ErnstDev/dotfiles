@@ -19,9 +19,6 @@
 [commit]
 	gpgsign = true 
 
-[includeIf "gitdir:~/Work/"]
-	path = ~/.gitconfig-work
-
 [user]
 	email = ernst.becker.neto@gmail.com
 	name = ErnstBecker
