@@ -1,56 +1,69 @@
-# Ernst's Zsh Aliases file
+#   ▄▀█  █░░  █  ▄▀█  █▀▀  █▀▀  █▀▀
+#  █▀█  █▄▄  █  █▀█  ▄▄█  ██▄  ▄▄█
 
-# My personal use
+
+#  █░░  ▄▀█  ▀▀█  █░█
+# █▄▄  █▀█  █▄▄   █
 alias clear-history="rm -f ~/.config/zsh/zsh_history && kill -9 $$"
-alias clean-up="sudo pacman -Rns $(pacman -Qtdq)"
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias clean-up="sudo pacman -Rns $(pacman -Qtdq)"
+alias clock="tty-clock -c -C 1 -b -s"
+alias battery="acpi"
+alias ff="fastfetch"
+alias c="clear"
 
-# Hyprland
+
+#  █▀▀  █░█  █▀▀  ▀█▀  █▀█  █▄ ▄█
+# █▄▄  █▄█  ▄▄█  ░█░  █▄█  █░▀░█
 alias cw="~/.config/hypr/scripts/change_wallpaper.zsh"
 
-# Replace with some better alternatives
+
+#  ▄▀█  █░░  ▀█▀
+# █▀█  █▄▄  ░█░
 alias ls="lsd --recursive --depth 1 --group-dirs=first"
 alias cat="bat --style=auto"
 
 
-# Navigation
+#  █▄░█  ▄▀█  █░█  █  █▀▀  ▄▀█  ▀█▀  █  █▀█  █▄░█
+# █░▀█  █▀█  ▀▄▀  █  █▄█  █▀█  ░█░  █  █▄█  █░▀█
 alias ..="cd .."
 alias ...="cd ../.."
 
 
-# Lazy aliases
-alias c="clear"
-alias off="shutdown now"
-alias clock="tty-clock -c -C 1 -b -s"
-alias audio="pulsemixer"
-alias ff="fastfetch"
-alias battery="acpi"
+#  █▀▀ █ ▀█▀
+# █▄█ █ ░█░
+# Init/Clone/Logs
+alias gi="git init"
+alias gcl="git clone"
+alias gs="git status --short"
+alias gd='git diff --output-indicator-new=" " --output-indicator-old=" "'
+alias gds='gd --staged'
+alias gl='git log --graph --all --pretty=format:"%C(magenta)%H%n%C(green)%an:  %ar%C(blue)  %C(cyan)%D%n%s%n"'
 
-
-# Git
-alias gs="git status"
+# Add/Commit
 alias ga="git add"
 alias gaa="git add ."
+alias gap="git add --patch"
 alias gc="git commit -m"
+alias gca="gc --amend --no-edit"
+alias gce="gc --amend"
+
+# Branching
+alias gb="git branch"
+alias gba="gb --all"
+alias gco="git checkout"
+alias gm="git merge"
+alias gcp="git cherry-pick"
+
+# Push/Pull/Sync
 alias gp="git push"
 alias gpl="git pull"
-alias gpls="git stash && git pull && git stash apply"
-alias gst="git stash"
-alias gsta="git stash apply"
 alias gf="git fetch"
-alias gco="git checkout"
-alias gcb="git checkout -b"
-alias gr="git reset --soft HEAD~1"
+alias gpls="git stash && git pull && git stash apply"
+
+# Stash/Reset/Restore
+alias gst="git stash"
+alias gsta="gst apply"
 alias grh="git reset --hard HEAD~1"
 alias grs="git restore"
 alias grss="git restore --staged"
-alias gcp="git cherry-pick"
-
-
-# Start Programs
-# 
-# Xampp
-alias xampp="start_xampp"
-start_xampp() {
-  sudo su -c "nohup /opt/lampp/manager-linux-x64.run > /dev/null 2>&1 & disown; exit" && exit
-}
