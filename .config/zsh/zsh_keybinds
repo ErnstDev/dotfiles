@@ -1,5 +1,5 @@
-# Ernst's Zsh Keybindings file
+#?  █▄▀  █▀▀  █░█  █▀▄  █  █▄░█  █▀▄  █▀▀
+#?  █▀▄  ██▄   █   ██▀  █  █░▀█  █▄▀  ▄▄█
 
 bindkey '^b' history-search-backward
 bindkey '^n' history-search-forward
-
