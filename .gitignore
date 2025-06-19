@@ -1,3 +1,8 @@
 zsh_history
 btop.log
 lazy-lock.json
+
+# Firefox
+.mozilla/firefox/zeists.default/*
+!.mozilla/firefox/zeists.default/chrome
+!.mozilla/firefox/zeists.default/user.js
