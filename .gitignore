@@ -3,11 +3,11 @@ btop.log
 lazy-lock.json
 
 # Zen Browser 
-.zen/zeists.default/*
-!.zen/zeists.default/chrome
-!.zen/zeists.default/user.js
+.zen/ernst.default/*
+!.zen/ernst.default/chrome
+!.zen/ernst.default/user.js
 
 # Firefox
-.mozilla/firefox/zeists.default/*
-!.mozilla/firefox/zeists.default/chrome
-!.mozilla/firefox/zeists.default/user.js
+.mozilla/firefox/ernst.default/*
+!.mozilla/firefox/ernst.default/chrome
+!.mozilla/firefox/ernst.default/user.js
