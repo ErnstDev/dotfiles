@@ -10,4 +10,4 @@ fi
 cp "$1" ~/.config/background
 
 # Define o novo wallpaper
-swww img ~/.config/background
+swww img --transition-fps=180 --transition-type=grow --transition-pos=center --transition-duration=1 ~/.config/background

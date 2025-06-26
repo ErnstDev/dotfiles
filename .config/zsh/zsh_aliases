@@ -6,7 +6,8 @@
 # █▄▄  █▀█  █▄▄   █
 alias clear-history="rm -f ~/.config/zsh/zsh_history && kill -9 $$"
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-alias clean-up="sudo pacman -Rns $(pacman -Qtdq)"
+alias pacman-clean="sudo pacman -Rns $(pacman -Qtdq)"
+alias paru-clean="pacman -Qtdq | sudo pacman -Rns -"
 alias clock="tty-clock -c -C 1 -b -s"
 alias battery="acpi"
 alias ff="fastfetch"
@@ -15,7 +16,7 @@ alias c="clear"
 
 #  █▀▀  █░█  █▀▀  ▀█▀  █▀█  █▄ ▄█
 # █▄▄  █▄█  ▄▄█  ░█░  █▄█  █░▀░█
-alias cw="~/.config/hypr/scripts/change_wallpaper.zsh"
+alias cw="~/dotfiles/.config/scripts/chWPP.zsh"
 
 
 #  ▄▀█  █░░  ▀█▀
